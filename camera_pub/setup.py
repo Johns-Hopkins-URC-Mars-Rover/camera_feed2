@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'camera-pub'
+package_name = 'camera_pub'
 
 setup(
     name=package_name,
@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'camera_node = camera_pub.camera_node:main'
         ],
     },
 )
