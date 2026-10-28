@@ -1,0 +1,11 @@
+
+<library path="rover_rviz_panel">
+  <class
+    name="rover_rviz_panel/RoverPanel"
+    type="rover_rviz_panel::RoverPanel"
+    base_class_type="rviz_common::Panel">
+    <description>
+      Rover control dashboard with teleoperation toggle.
+    </description>
+  </class>
+</library>
