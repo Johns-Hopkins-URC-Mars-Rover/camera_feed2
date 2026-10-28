@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'enable_controllers_node = enable_teleop.enable_controllers:main'
         ],
     },
 )
